@@ -8,12 +8,14 @@ fire = "*"
 
 [dev-packages]
 flake8 = "*"
+black = "*"
 
 [requires]
 python_version = "3.10"
 
 [scripts]
-start = "python src" 
+start = "python src"
 hello = "python src/hello.py"
 calculator = "python src/calculator.py"
-lint = "flake8 ."
+lint = "python -m flake8 ."
+black = "python -m black ."

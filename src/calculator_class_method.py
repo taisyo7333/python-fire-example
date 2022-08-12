@@ -33,5 +33,5 @@ class Calculator(object):
         return number * number
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fire.Fire(Calculator)
