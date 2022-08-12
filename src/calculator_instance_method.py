@@ -31,4 +31,4 @@ class Calculator(object):
 
 
 if __name__ == '__main__':
-    fire.Fire(Calculator2)
+    fire.Fire(Calculator)

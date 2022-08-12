@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import fire
 
+
 def hello(name="world"):
     """
     hello world
