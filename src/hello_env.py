@@ -10,5 +10,5 @@ def get_env(key="ENV", default=""):
     return os.environ.get(key, default)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fire.Fire(get_env)
