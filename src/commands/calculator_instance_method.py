@@ -1,37 +1,29 @@
 # -*- coding: utf-8 -*-
-import fire
 
 
 class Calculator(object):
     """
     A simple calculator class.
-    class method version
+    instance method version
     """
 
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
-    @classmethod
-    def double(cls, number):
+    def double(self, number):
         """
         x * 2
         """
         return 2 * number
 
-    @classmethod
-    def trible(cls, number):
+    def triple(self, number):
         """
         x * 3
         """
         return 3 * number
 
-    @classmethod
-    def square(cls, number):
+    def square(self, number):
         """
         x * x
         """
         return number * number
-
-
-if __name__ == "__main__":
-    fire.Fire(Calculator)
