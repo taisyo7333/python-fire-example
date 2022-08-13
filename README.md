@@ -60,7 +60,15 @@ DEBUG
 ## env
 
 ```
-> pipenv run start env get_env --key="ENV"   
+> pipenv run start env get_env --key="ENV"
 Loading .env environment variables...
 DEBUG
+```
+
+## calc-class
+```
+> ➜ pipenv run start calc-class double 2
+Loading .env environment variables...
+4
+
 ```
