@@ -1,9 +1,10 @@
 import os
+
 import fire
 
-from commands.hello import hello, get_env
 from commands import calculator_class_method as calc_cm
 from commands import calculator_instance_method as calc_im
+from commands.hello import get_env, hello
 
 if __name__ == "__main__":
     fire.Fire(

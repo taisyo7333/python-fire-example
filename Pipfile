@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 fire = "*"
+isort = "*"
 
 [dev-packages]
 flake8 = "*"
@@ -19,4 +20,4 @@ start = "python src"
 lint = "python -m flake8 ."
 black = "python -m black ."
 mypy = "python -m mypy ."
-
+isort = "python -m isort ."
